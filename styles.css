@@ -8,6 +8,7 @@
     padding-left: 300px;
     padding-right: 300px;
     padding-bottom: 80px;
+    flex-shrink: 0;
    
 }
 .LogoLinks a{
@@ -26,6 +27,7 @@
     display: flex;
     gap: 20px;
     margin-left: auto;
+    flex-shrink: 0;
    
 }
 .Text{
@@ -35,6 +37,7 @@
     color: white;
     padding-top: 50px;
     justify-content: space-between;
+    flex-shrink: 0;
 }
 p{
     font-size: large;
@@ -50,4 +53,76 @@ p{
     padding: 15px;
     padding-top: 9px;
     padding-bottom: 9px;
+}
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.Telo{
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+.sodrzina{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+}
+.studii{
+    display: flex;
+    gap: 100px;
+}
+
+.lista1 h4{
+    font-size: 35px;
+}
+.lista2 h4{
+    font-size: 35px;;
+}
+.el{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 25px;
+    padding-bottom: 75px;
+}
+.quote{
+    font-size: larger;
+    background-color: lightgray;
+    border-radius: 25px;
+    padding: 20px;
+    width: auto;
+    margin-bottom: 50px;
+}
+.avtor{
+    text-align: right;
+}
+.quote p{
+    text-align: center;
+    font-style: italic;
+    font-size: 26px;
+}
+.signup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hwb(221 31% 7%);
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 25px;
+    margin-bottom: 60px;
+    flex-shrink: 0;
+}
+.footer{
+    display: flex;
+    background-color: darkslategrey;
+    justify-content: center;
+    flex-shrink: 0;
+    
+}
+.footer p{
+    font-size: 12px;
+    
 }
