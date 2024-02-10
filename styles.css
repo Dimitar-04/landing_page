@@ -1,0 +1,53 @@
+.Header{
+    display: flex;
+    background-color: hwb(221 31% 7%);
+    padding: 20px;
+    flex-direction: column;
+   
+    border-radius: 25px;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-bottom: 80px;
+   
+}
+.LogoLinks a{
+    text-decoration: none;
+    display: flex;
+    align-self: flex-start;
+    color: white;
+    margin-left: auto;
+}
+.LogoLinks{
+    
+    display: flex;
+    
+}
+.links{
+    display: flex;
+    gap: 20px;
+    margin-left: auto;
+   
+}
+.Text{
+    /* width: 600px; */
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    padding-top: 50px;
+    justify-content: space-between;
+}
+p{
+    font-size: large;
+}
+.Text .paragrafi{
+    width: 500px;
+}
+.kopce{
+    color: white;
+    background-color: #031268;
+    border-radius: 25px;
+    font-size: 15px;
+    padding: 15px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
